@@ -3,10 +3,12 @@ object gimenez {
 	var property sueldo = 15000
 	var property dinero = 0
 
+	// si tenes la property esto no hace falta !
 	method sueldo() {
 		return sueldo
 	}
 
+	// esto tampoco :)
 	method sueldo(nuevoValor) {
 		sueldo = nuevoValor
 	}
